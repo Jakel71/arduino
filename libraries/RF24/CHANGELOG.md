@@ -6,6 +6,49 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 <!-- markdownlint-disable MD024 -->
 
+## [1.6.2] - 2026-08-13
+
+### <!-- 4 --> 🛠️ Fixed
+
+- Fix rollover-unsafe millis() timeout in scannerGraphic.ino by \@Copilot in [#1073](https://github.com/nRF24/RF24/pull/1073)
+
+### <!-- 6 --> 📦 Dependency updates
+
+- Bump actions/checkout from 6 to 7 in the actions group by \@dependabot[bot] in [#1075](https://github.com/nRF24/RF24/pull/1075)
+- Bump actions/setup-node from 6 to 7 in the actions group by \@dependabot[bot] in [#1077](https://github.com/nRF24/RF24/pull/1077)
+
+### <!-- 9 --> 🗨️ Changed
+
+- Exclude utility/pigpio from PlatformIO package export by \@carlos-jenkins in [#1078](https://github.com/nRF24/RF24/pull/1078)
+
+[1.6.2]: https://github.com/nRF24/RF24/compare/v1.6.1...v1.6.2
+
+Full commit diff: [`v1.6.1...v1.6.2`][1.6.2]
+
+## New Contributors
+
+- \@carlos-jenkins made their first contribution in [#1078](https://github.com/nRF24/RF24/pull/1078)
+
+## [1.6.1] - 2026-05-31
+
+### <!-- 4 --> 🛠️ Fixed
+
+- Fix RP2 Memory Leak by \@TMRh20 in [#1070](https://github.com/nRF24/RF24/pull/1070)
+- Fix typos by \@aremmell in [#1072](https://github.com/nRF24/RF24/pull/1072)
+
+### <!-- 9 --> 🗨️ Changed
+
+- Inform AI agents about dev workflows by \@2bndy5 in [#1071](https://github.com/nRF24/RF24/pull/1071)
+- Bump version to v1.6.1 by \@TMRh20 in [`e4097d6`](https://github.com/nRF24/RF24/commit/e4097d664e7c6fc4c79e0392734f7cf98e6ccd27)
+
+[1.6.1]: https://github.com/nRF24/RF24/compare/v1.6.0...v1.6.1
+
+Full commit diff: [`v1.6.0...v1.6.1`][1.6.1]
+
+## New Contributors
+
+- \@aremmell made their first contribution in [#1072](https://github.com/nRF24/RF24/pull/1072)
+
 ## [1.6.0] - 2026-04-08
 
 ### <!-- 4 --> 🛠️ Fixed
@@ -36,6 +79,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Big bug fix: Disable interrupts by default by \@TMRh20 in [#1062](https://github.com/nRF24/RF24/pull/1062)
 - Enhanced Error Handling by \@TMRh20 in [#1064](https://github.com/nRF24/RF24/pull/1064)
 - Namespace nRF24L01.h defines to avoid name collisions by \@Copilot in [#1066](https://github.com/nRF24/RF24/pull/1066)
+- Bump version to v1.6.0 by \@TMRh20 in [`8684b54`](https://github.com/nRF24/RF24/commit/8684b54fd839bd0b12e0f049f36af5cb2a19b2b3)
 
 [1.6.0]: https://github.com/nRF24/RF24/compare/v1.5.0...v1.6.0
 
@@ -899,7 +943,7 @@ Full commit diff: [`v1.3.0...v1.3.1`][1.3.1]
 
 ### <!-- 1 --> 🚀 Added
 
-- Add static initialization for pthread mutexes in [`e204656`](https://github.com/nRF24/RF24/commit/e204656cbdb361a983ee76a7e343ecdb1d22bd54)
+- Add static initialization for pthread mutexes by \@maqno-br in [`e204656`](https://github.com/nRF24/RF24/commit/e204656cbdb361a983ee76a7e343ecdb1d22bd54)
 - Add to RF24: Arduino Due supported in SPI_UART by \@TMRh20 in [`3b5fc3e`](https://github.com/nRF24/RF24/commit/3b5fc3e85bd11f075f703b1cbe0709c3cada27dd)
 - Merge pull request \#247 from corcrash/master in [#247](https://github.com/nRF24/RF24/pull/247)
 - Added disableDynamicPayloads() by \@soligen2010 in [#318](https://github.com/nRF24/RF24/pull/318)
@@ -941,6 +985,7 @@ Full commit diff: [`RF24v1.2.0...v1.3.0`][1.3.0]
 - \@nickmooney made their first contribution in [#304](https://github.com/nRF24/RF24/pull/304)
 - \@derf made their first contribution in [#319](https://github.com/nRF24/RF24/pull/319)
 - \@campenr made their first contribution
+- \@maqno-br made their first contribution
 
 ## [RF24v1.2.0] - 2016-11-05
 
